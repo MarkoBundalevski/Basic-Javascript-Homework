@@ -11,6 +11,7 @@ if(currentStep < 0) {
 
 multistepForm.addEventListener("click", e => {
     let incrementor
+    //console.log(incrementor);
     if(e.target.matches("[data-next")) {
         incrementor = 1;
     } else if (e.target.matches("[data-previous]")) {
